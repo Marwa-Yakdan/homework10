@@ -1,0 +1,30 @@
+javascript code:
+b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50];
+size=b.length;
+bn=new Array();
+for (i=0;i<size;i++)
+{
+  x=(b[i]*10)-5;
+  bn.push(x);
+  }
+ 
+ for (i=0;i<size;i++)
+ {
+ sum=b[i]+bn[i];
+ console.log(sum);
+   
+ }
+ -------------------------------
+ ruby code:
+ b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50];
+bn=[]
+b.each_index do |i|
+
+  x = (b[i]*10)-5
+  bn.push(x)
+
+
+ sum=b[i]+bn[i]
+ puts sum
+   
+ end

@@ -1,0 +1,27 @@
+<html>
+<body>
+
+<textarea id="d" onkeyup="myFunction()" width="500" height="500">
+ </textarea>
+<hr>
+<p id="p1"> </p>
+
+<p id="p2"> </p>
+
+<p id="p3"> </p>
+
+<p id="p4"> </p>
+
+
+<script>
+function myFunction() {
+    var x=document.getElementById("d").value;
+    document.getElementById("p1").innerHTML=x;
+    document.getElementById("p2").innerHTML=x;
+    document.getElementById("p3").innerHTML=x;
+    document.getElementById("p4").innerHTML=x;
+}
+</script>
+
+</body>
+</html>
