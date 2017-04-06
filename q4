@@ -1,0 +1,29 @@
+-javascript code:
+ -a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"]
+ -for (i=0;i<a.length;i++)
+ -{
+ - if (i%2===0) 
+ - {
+ -   console.log(reverseStr(a[i]));
+ - }
+ - else
+ - 
+ - console.log(a[i]);
+ - }
+ - 
+ - function reverseStr(str) {
+ -    return str.split("").reverse().join("");
+ }
+ 
+ --------------------------------
+ ruby code:
+ a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"]
+ a.each_index do |i|
+ 
+ if i%2==0 
+  
+    puts a[i].reverse
+  
+  else puts a[i]
+  end
+  end 
